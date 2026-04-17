@@ -1,10 +1,10 @@
-function AreaChart() {
-  const data1 = [20, 30, 50, 70, 90, 10]; // yellow
-  const data2 = [25, 40, 60, 45, 30, 55]; // white
+const AreaChart = () => {
+  const data1 = [20, 15, 30, 70, 90, 10];
+  const data2 = [30, 40, 60, 45, 30, 55];
 
   const labels = ["AUG 21", "AUG 22", "AUG 23", "AUG 24", "AUG 25", "AUG 26"];
 
-  const width = 400;
+  const width = 550;
   const height = 200;
 
   const max = Math.max(...data1, ...data2);
@@ -43,9 +43,10 @@ function AreaChart() {
         Weekly plan
       </h2>
 
-      <svg width={width} height={height} className="overflow-visible">
-        
-        {/* Grid */}
+      <svg
+        viewBox={`0 0 ${width} ${height}`}
+        className="overflow-visible w-full h-[200px]"
+      >
         {[0, 1, 2, 3, 4].map((i) => (
           <line
             key={i}
@@ -57,19 +58,10 @@ function AreaChart() {
           />
         ))}
 
-        {/* Area 1 (yellow) */}
-        <path
-          d={createAreaPath(points1)}
-          fill="rgba(250, 204, 21, 0.4)"
-        />
+        <path d={createAreaPath(points1)} fill="rgba(250, 204, 21, 0.4)" />
 
-        {/* Area 2 (white) */}
-        <path
-          d={createAreaPath(points2)}
-          fill="rgba(255,255,255,0.2)"
-        />
+        <path d={createAreaPath(points2)} fill="rgba(255,255,255,0.2)" />
 
-        {/* Line 1 */}
         <path
           d={createPath(points1)}
           stroke="#facc15"
@@ -77,7 +69,6 @@ function AreaChart() {
           fill="none"
         />
 
-        {/* Line 2 */}
         <path
           d={createPath(points2)}
           stroke="#fff"
@@ -86,7 +77,6 @@ function AreaChart() {
         />
       </svg>
 
-      {/* Labels */}
       <div className="flex justify-between mt-3 text-gray-400 text-sm">
         {labels.map((l, i) => (
           <span key={i} className={l === "AUG 24" ? "text-yellow-400" : ""}>
@@ -96,6 +86,7 @@ function AreaChart() {
       </div>
     </div>
   );
+
 }
 
 export default AreaChart;

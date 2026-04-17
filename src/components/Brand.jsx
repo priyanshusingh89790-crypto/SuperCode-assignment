@@ -1,7 +1,7 @@
 import { Accenture, Microsoft, Apple } from "../utils/svg/svg";
 const Brand = () => {
   return (
-    <div className="flex justify-between items-center border-t-2 border-b-2 border-gray-200 px-20 py-10 text-zinc-600">
+    <div className="flex justify-between items-center border-t-2 border-b-2 border-zinc-600 px-20 py-15 text-zinc-600">
       <p className="flex flex-col items-center text-4xl font-bold">
         {Accenture}
         accenture

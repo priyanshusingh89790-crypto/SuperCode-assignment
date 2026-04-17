@@ -1,5 +1,5 @@
-function WaveCalenderChart() {
-  const data = [40, 80, 60, 90, 30, 70]; // your values (Mon → Sat)
+const WaveCalenderChart = () => {
+  const data = [40, 80, 60, 90, 30, 70];
   const labels = ["MON", "TUE", "WED", "THU", "FRI", "SAT"];
 
   const width = 300;
@@ -7,14 +7,12 @@ function WaveCalenderChart() {
 
   const max = Math.max(...data);
 
-  // Convert data → points
   const points = data.map((val, i) => {
     const x = (i / (data.length - 1)) * width;
     const y = height - (val / max) * height;
     return { x, y };
   });
 
-  // Create smooth curve (Bezier)
   const path = points.reduce((acc, point, i) => {
     if (i === 0) return `M ${point.x},${point.y}`;
 
@@ -26,7 +24,7 @@ function WaveCalenderChart() {
 
   return (
     <div className="bg-[#222121] p-6 rounded-xl w-full ">
-      <h2 className="text-white text-lg mb-4 border-b border-yellow-400 w-fit pb-1">
+      <h2 className="text-white text-lg mb-4 border-b-2 border-amber-200 w-fit pb-1">
         Spending frequency
       </h2>
 
@@ -40,10 +38,9 @@ function WaveCalenderChart() {
         />
       </svg>
 
-      {/* Labels */}
       <div className="flex justify-between mt-3 text-gray-400 text-sm">
         {labels.map((day, i) => (
-          <span key={i} className={day === "THU" ? "text-yellow-400" : ""}>
+          <span key={i} className={day === "FRI" ? "text-yellow-400" : ""}>
             {day}
           </span>
         ))}

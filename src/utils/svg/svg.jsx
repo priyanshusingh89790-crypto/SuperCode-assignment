@@ -3,14 +3,14 @@ export const Accenture =
 
 
 export const Microsoft =
-     <svg width="50px" height="50px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+     <svg width="50px" height="50px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
     
     <title>microsoft [#150]</title>
     <desc>Created with Sketch.</desc>
     <defs>
 
 </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <g id="Dribbble-Light-Preview" transform="translate(-220.000000, -7519.000000)" fill="#52525b">
             <g id="icons" transform="translate(56.000000, 160.000000)">
                 <path d="M174,7379 L184,7379 L184,7370 L174,7370 L174,7379 Z M164,7379 L173,7379 L173,7370 L164,7370 L164,7379 Z M174,7369 L184,7369 L184,7359 L174,7359 L174,7369 Z M164,7369 L173,7369 L173,7359 L164,7359 L164,7369 Z" id="microsoft-[#150]">
@@ -32,8 +32,8 @@ export const Payment_SVG =
 <path d="M33.5349 22.8915L33.565 21L37.1524 21.0503L37.1223 22.9417C40.2237 23.5676 41.7819 25.7698 41.7218 29.2238L41.7068 30.0233L37.5582 29.9639L37.5783 28.9085C37.6083 27.0901 36.8217 26.3866 35.4288 26.3683C34.036 26.35 33.2243 27.0262 33.1942 28.8445C33.104 34.0803 41.6717 34.455 41.5514 41.7239C41.4913 45.1778 39.8229 47.3708 36.7015 47.9099L36.6714 49.7648L33.084 49.7146L33.1141 47.8597C29.9726 47.2338 28.4194 44.9951 28.4745 41.5411L28.5046 39.7958L32.6531 39.8552L32.618 41.8563C32.588 43.6747 33.4548 44.3417 34.8476 44.36C36.2455 44.3783 37.1323 43.7387 37.1624 41.9203C37.2526 36.6845 28.6849 36.3099 28.8052 29.041C28.8653 25.6281 30.4586 23.4671 33.5349 22.8915Z" fill="#3B3B3B"/>
 <defs>
 <linearGradient id="paint0_linear_4160_107" x1="14.8461" y1="-5.26542e-07" x2="72.7575" y2="68.2318" gradientUnits="userSpaceOnUse">
-<stop stop-color="#BA99FD"/>
-<stop offset="1" stop-color="#CEC0FD"/>
+<stop stopColor="#BA99FD"/>
+<stop offset="1" stopColor="#CEC0FD"/>
 </linearGradient>
 </defs>
 </svg>  
@@ -51,24 +51,24 @@ export const Card_SVG =
 <path d="M25.8417 30.8695C27.4526 30.8695 28.7584 29.5637 28.7584 27.9528C28.7584 26.342 27.4526 25.0361 25.8417 25.0361C24.2309 25.0361 22.925 26.342 22.925 27.9528C22.925 29.5637 24.2309 30.8695 25.8417 30.8695Z" fill="#F8D57E"/>
 <defs>
 <linearGradient id="paint0_linear_4160_87" x1="11" y1="8" x2="70.1111" y2="51.5556" gradientUnits="userSpaceOnUse">
-<stop stop-color="#A7F4CE"/>
-<stop offset="1" stop-color="#7DE5AE"/>
+<stop stopColor="#A7F4CE"/>
+<stop offset="1" stopColor="#7DE5AE"/>
 </linearGradient>
 <linearGradient id="paint1_linear_4160_87" x1="0" y1="17" x2="61.0714" y2="62" gradientUnits="userSpaceOnUse">
-<stop stop-color="#3D81FF"/>
-<stop offset="1" stop-color="#65E2FD"/>
+<stop stopColor="#3D81FF"/>
+<stop offset="1" stopColor="#65E2FD"/>
 </linearGradient>
 <linearGradient id="paint2_linear_4160_87" x1="15.8331" y1="34.4416" x2="3.21835" y2="21.8272" gradientUnits="userSpaceOnUse">
-<stop stop-color="#00A2F3" stop-opacity="0"/>
-<stop offset="1" stop-color="#0075CD"/>
+<stop stopColor="#00A2F3" stopOpacity="0"/>
+<stop offset="1" stopColor="#0075CD"/>
 </linearGradient>
 <linearGradient id="paint3_linear_4160_87" x1="24.0827" y1="34.4413" x2="11.4684" y2="21.8269" gradientUnits="userSpaceOnUse">
-<stop stop-color="#00A2F3" stop-opacity="0"/>
-<stop offset="1" stop-color="#0075CD"/>
+<stop stopColor="#00A2F3" stopOpacity="0"/>
+<stop offset="1" stopColor="#0075CD"/>
 </linearGradient>
 <linearGradient id="paint4_linear_4160_87" x1="32.3293" y1="34.4414" x2="19.715" y2="21.827" gradientUnits="userSpaceOnUse">
-<stop stop-color="#00A2F3" stop-opacity="0"/>
-<stop offset="1" stop-color="#0075CD"/>
+<stop stopColor="#00A2F3" stopOpacity="0"/>
+<stop offset="1" stopColor="#0075CD"/>
 </linearGradient>
 </defs>
 </svg>
@@ -88,12 +88,12 @@ export const Folder_SVG =
 <path d="M50.3601 50.1013C52.4737 50.1013 54.1871 48.542 54.1871 46.6185C54.1871 44.695 52.4737 43.1357 50.3601 43.1357C48.2465 43.1357 46.5331 44.695 46.5331 46.6185C46.5331 48.542 48.2465 50.1013 50.3601 50.1013Z" fill="url(#paint1_linear_4160_121)"/>
 <defs>
 <linearGradient id="paint0_linear_4160_121" x1="50.3622" y1="43.4536" x2="50.3622" y2="50.7513" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FF4C54"/>
-<stop offset="1" stop-color="#BE3F45"/>
+<stop stopColor="#FF4C54"/>
+<stop offset="1" stopColor="#BE3F45"/>
 </linearGradient>
 <linearGradient id="paint1_linear_4160_121" x1="50.3589" y1="48.8055" x2="50.3589" y2="43.7697" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FF4C54"/>
-<stop offset="1" stop-color="#BE3F45"/>
+<stop stopColor="#FF4C54"/>
+<stop offset="1" stopColor="#BE3F45"/>
 </linearGradient>
 </defs>
 </svg>
