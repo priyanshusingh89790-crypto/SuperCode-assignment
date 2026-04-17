@@ -49,15 +49,27 @@ const AreaChart = () => {
       >
         {[0, 1, 2, 3, 4].map((i) => (
           <line
-            key={i}
+            key={`h-${i}`}
             x1="0"
             y1={(i / 4) * height}
             x2={width}
             y2={(i / 4) * height}
-            stroke="#444"
+            stroke="#fde68a"
+            strokeOpacity="0.4"
           />
         ))}
 
+        {labels.map((_, i) => (
+          <line
+            key={`v-${i}`}
+            x1={(i / (labels.length - 1)) * width}
+            y1="0"
+            x2={(i / (labels.length - 1)) * width}
+            y2={height}
+            stroke="#fde68a"
+            strokeOpacity="0.4"
+          />
+        ))}
         <path d={createAreaPath(points1)} fill="rgba(250, 204, 21, 0.4)" />
 
         <path d={createAreaPath(points2)} fill="rgba(255,255,255,0.2)" />
@@ -86,7 +98,6 @@ const AreaChart = () => {
       </div>
     </div>
   );
-
-}
+};
 
 export default AreaChart;
